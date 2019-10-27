@@ -5,16 +5,63 @@
 }
 
 body {
-    background-color: #0174DF;
+    background-color: #333;
 }
 
-.home__titulo_principal {
-    margin: 1em 0;
-    font-family: 'Liu Jian Mao Cao', cursive;
-    font-size: 3em;
-    text-align: center;
+.home__div_menu {
+    background-color: #ffffff;
+    width: 100%;
+    height: 15vh;
+}
+
+.home__div_menu img {
+    width: 30%;
+    align-items: center;
 }
 
 .home__banner_principal {
     width: 100%;
+}
+
+.home__div_video {
+    display: flex;
+    justify-content: center;
+}
+
+.home__titulo_secundario {
+    margin: 0.5em 0;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 2em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.home__video {
+    width: 70%;
+    height: 80vh;
+}
+
+.home__div_paragrafo {
+    width: 80%;
+    margin: 2em auto;
+}
+
+.home__paragrafo {
+    color: #fff;
+}
+
+table,
+th,
+td {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+    padding: 5px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.home__div_table_person {
+    display: flex;
+    justify-content: center;
 }
