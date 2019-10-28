@@ -1,0 +1,142 @@
+<!--serve para mostrar que é html5-->
+<!DOCTYPE html>
+<!-- html serve para iniciar uma pagina web -->
+<!--lang serve para mostrar nosso idioma-->
+<html lang="pt-br">
+<!--head é a cabeça da página web-->
+
+<head>
+    <!-- serve para colocar os acentos nas palavras-->
+    <meta charset="UTF-8">
+    <!-- as duas linhas debaixo servem para 
+    diexar a página adaptável a celular e tablet-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--title serve para indicar o titulo da pagina-->
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- CDN do framework mdbootstrap-->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- A CLASSE SERVE PARA POR ALGUM APELIDO NA TAG-->
+    <!--os tipos de titulos são :
+    h1 -> é o titulo principal da página
+    h2, h3, h4, h5, h6 -> title secundário
+    -->
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="é um logo do free fire" class="home__logo"></a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">youtubers</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://www.youtube.com/channel/UC4IMfO_--bwBaNgWeoLxAgg" target="_blanck">playhard</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/channel/UCnYjd7cPNluC7Hi9AZrBNMw" target="_blanck">coringa</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/channel/UCA6S8QASQlEPoAAW7rodM1g" target="_blanck">babi</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/channel/UCyhjGQwD8falCud32MYAMCw" target="_blanck">bradoock</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/channel/UCyFYPXT86-EHqI462wf6bpA" target="_blanck">voltan</a>
+                    </div>
+                </li>
+
+            </ul>
+            <!-- Links -->
+
+        </div>
+        <!-- Collapsible content -->
+
+    </nav>
+    <!--/.Navbar-->
+    <!-- a linha abaixo serve para colocar uma imagem.
+        o src serve para colocar onde a imagem esta.
+        o alt serve para colocar a descrição da imagem.
+    -->
+    <img src="img/banner.jpg" alt="é um banner com tema de free fire" class="home__banner_principal">
+    <!-- o main serve para colocar ou indicar aonde está a parte principal da página-->
+    <main>
+        <h2 class="home__titulo_secundario">jogabilidade do free fire</h2>
+        <!-- a tag div serve para pegar uma divisão da página-->
+        <div class="home__div_video">
+            <!-- a tag iframe serve para incorporar um video
+                o src serve para colocar o caminho do video-->
+            <iframe class="home__video" src="https://www.youtube.com/embed/xGVfP8qVRZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="home__div_paragrafo">
+            <!-- a tag p serve para colocar um paragráfo-->
+            <p class="home__paragrafo">
+                Número de downloads e receita Garena Free Fire é um dos jogos battle royale mobile mais populares do mundo. Free Fire foi o segundo jogo mais baixado na Google Play Store no quarto trimestre de 2018,[16] e foi o quarto jogo mais baixado no mundo em 2018
+                no iOS e na Google Play Store juntos.[17] O título obteve aproximadamente 182 milhões de downloads em 2018, tornando-se o segundo jogo battle royale mobile mais baixado (acima de Fortnite e atrás apenas de PUBG Mobile),[18] e arrecadou
+                aproximadamente 19,3 milhões de dólares em receita mensal até dezembro de 2018, se tornando um sucesso financeiro significativo para a Garena.
+            </p>
+        </div>
+        <div class="home__div_table_person">
+            <!-- a tag table serve para criar uma tabela-->
+            <table>
+                <!-- a tag tr é uma linha da tabela-->
+                <tr>
+                    <!-- a tag th é a cabeça da tabela-->
+                    <th>personagens</th>
+                    <th>habilidade</th>
+                    <th>genêro</th>
+                    <th>aniversário</th>
+                    <th>preço</th>
+                    <th>lançamento</th>
+                </tr>
+                <tr>
+                    <!-- a tag td é o corpo da tabela-->
+                    <td>adam</td>
+                    <td>sem habilidade</td>
+                    <td>masculino</td>
+                    <td>desconhecido</td>
+                    <td>grátis</td>
+                    <td>04/12/2017</td>
+                </tr>
+                <tr>
+                    <td>eve</td>
+                    <td>sem habilidades</td>
+                    <td>feminino</td>
+                    <td>desconhecido</td>
+                    <td>grátis</td>
+                    <td>04/12/2017</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <!-- scripts do mdbootstrap-->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+</body>
+
+</html>

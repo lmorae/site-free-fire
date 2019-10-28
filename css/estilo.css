@@ -1,22 +1,24 @@
+/*serve para importar uma fonte do google fonts*/
+
 @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+
+/*o asteristico serve para colocar uma confiraçao 
+padrao em todas as tags*/
+
 * {
+    /*a margin serve para dar uma margem*/
     margin: 0;
+    /*o padding serve para dar um espaço interno da tag*/
     padding: 0;
 }
 
 body {
+    /*o background-color serve para dar uma cor de fundo*/
     background-color: #333;
 }
 
-.home__div_menu {
-    background-color: #ffffff;
-    width: 100%;
-    height: 15vh;
-}
-
-.home__div_menu img {
-    width: 30%;
-    align-items: center;
+.home__logo {
+    width: 35%
 }
 
 .home__banner_principal {
@@ -24,16 +26,24 @@ body {
 }
 
 .home__div_video {
+    /*serve para deixar algo flexivel e é sempre aplicada no pai*/
     display: flex;
+    /*serve para justificar algo no centro e só funciona com o display flex*/
     justify-content: center;
 }
 
 .home__titulo_secundario {
+    /*o primeiro valor serve para colacar uma margem em cima e embaixo e o segundo valor para colocar uma margem dos lados*/
     margin: 0.5em 0;
+    /*serve para alterar a tipografia de um texto*/
     font-family: 'Liu Jian Mao Cao', cursive;
+    /*serve para aumentar ou diminuir o tamanho do texto*/
     font-size: 2em;
+    /*serve para alinhar o texto no centro*/
     text-align: center;
+    /*serve para colocar somente as primeiras letras em maiúsculas*/
     text-transform: capitalize;
+    /*serve para mudar a cor do texto*/
     color: #fff;
 }
 
@@ -54,8 +64,14 @@ body {
 table,
 th,
 td {
+    /*serve para colocar borda em algo
+    1px -> a grossura da linha
+    solid -> uma borda sólida
+    #fff -> serve para colocar a cor da borda*/
     border: 1px solid #fff;
+    /*serve para juntar as bordas da tabela*/
     border-collapse: collapse;
+    /*serve para dar um espaço interno da tag*/
     padding: 5px;
     color: #fff;
     text-transform: capitalize;
